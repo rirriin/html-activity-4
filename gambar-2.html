@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    .container {
+        width: 770px;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+    }
+
+    .foto img {
+        width: 400px;
+        border-radius: 10px;
+        object-fit: contain;
+
+    }
+
+    .foto {
+        margin-top: 20px;
+    }
+
+    .profile {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile img {
+        display: block;
+        width: 100%;
+    }
+
+    .box1 {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .icon {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .duo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .box2 img {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+    }
+
+    .box {
+        margin-right: 60px;
+        padding: 5px 10px;
+        border: 2px dashed grey;
+        border-radius: 6px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .left {
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    h2 {
+       margin: 0px;
+    }
+
+    .text p {
+        margin-top: 20px;
+    }
+
+    p {
+        color: grey;
+        margin: 0px;
+    }
+
+    .text span {
+        color: grey;
+    }
+
+    .atas {
+        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .atas p {
+        color: grey;
+    }
+
+    .button {
+        background-color: #d6e1ec8c;
+        width: 80px;
+        height: 25px;
+        padding: 2px 2px 2px 2px;
+        border-radius: 3px;
+        color: rgb(6, 34, 126);
+    }
+
+    .box4 {
+        display: flex;
+    }
+
+    .box5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .gambar {
+        justify-content: flex-start;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gambar img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+        margin-right: -10px;
+    }
+
+    .view {
+        justify-content: flex-end;
+        color: rgb(0, 22, 221);
+        font-size: small;
+    }
+
+    .view img {
+        width: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="foto">
+            <img src="wpp.png">
+        </div>
+
+        <div class="left">
+            <div class="atas">
+                <div class="title">
+                    <p> Featured </p>
+                    <h2> 9 Degree </h2>
+                </div>
+
+                <div class="button">
+                    <span> In Process</span>
+                </div>
+            </div>
+
+            <div class="duo">
+                <div class="box1">
+                    <div class="profile">
+                        <img src="profile.jpg">
+                    </div>
+
+                    <div class="text">
+                        <span> Manager </span><br>
+                        <b> Robert Fox </b>
+                    </div>
+                </div>
+
+                <div class="box2">
+                    <div class="icon">
+                        <img src="icon1 (2).jpg">
+                        <div class="text">
+                            <span> Budget </span><br>
+                            <b> $64.800</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box3">
+                <div class="text">
+                    <p> Flat cartoony illustrations with vivid unblended <br>
+                        colors and asymmetrical beautiful purple hair lady </p>
+                </div>
+            </div>
+
+            <div class="box4">
+                <div class="box">
+                    <span><b>Feb 6, 2021</b></span>
+                    <span>Due Date</span>
+                </div>
+                <div class="box">
+                    <span><b> $284,900 </b></span>
+                    <span>Budget</span>
+                </div>
+            </div>
+
+            <div class="box5">
+                <div class="gambar">
+                    <img src="karina1.png">
+                    <img src="karina2.png">
+                    <img src="karina3.png">
+                </div>
+
+                <div class="view">
+                    <span> View Project </span>
+                    <img src="Group 1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
